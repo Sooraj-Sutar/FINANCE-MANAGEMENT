@@ -14,6 +14,7 @@ const nextConfig = {
       bodySizeLimit: "5mb",
     },
   },
+  //output: "export",/
 };
 
 export default nextConfig;
