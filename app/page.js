@@ -121,6 +121,26 @@ const LandingPage = () => {
               Start Free Trial
             </Button>
           </Link>
+        <header className="flex items-center justify-between gap-4 p-3">
+  <h1 className="text-[10px] font-medium sm:text-sm text-slate-400">
+    Copyright © Developed By |
+    <span className="text-slate-600 bold hover:text-slate-800 duration-200"> Sooraj Sutar</span>
+  </h1>
+
+  {/* Social Media Links */}
+  <div className="flex gap-3">
+    {/* LinkedIn */}
+    <a href="https://www.linkedin.com/in/sooraj-sutar-90496b202" target="_blank" rel="noopener noreferrer">
+      <img src="\linkedin.png" alt="LinkedIn" className="w-5 h-5 hover:opacity-80 duration-200" />
+    </a>
+
+    {/* Instagram */}
+    <a href="https://www.instagram.com/awsm_sooraj18" target="_blank" rel="noopener noreferrer">
+      <img src="\insta.png" alt="Instagram" className="w-5 h-5 hover:opacity-80 duration-200" />
+    </a>
+  </div>
+</header>
+
         </div>
       </section>
     </div>
